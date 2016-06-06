@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87020DDA1D060F9200B3471C /* AppDelegate.swift */; };
-		87020DDD1D060F9200B3471C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87020DDC1D060F9200B3471C /* ViewController.swift */; };
-		87020DE01D060F9200B3471C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87020DDE1D060F9200B3471C /* Main.storyboard */; };
 		87020DE21D060F9300B3471C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE11D060F9300B3471C /* Assets.xcassets */; };
 		87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE31D060F9300B3471C /* LaunchScreen.storyboard */; };
+		A1BDC3FA3EBCF190B18B3926 /* Pods_GroceryUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1AC44D592BB25181D3BA14 /* Pods_GroceryUber.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B1AC44D592BB25181D3BA14 /* Pods_GroceryUber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryUber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEF68676FC67BADC9F35788 /* Pods-GroceryUber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryUber.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber.release.xcconfig"; sourceTree = "<group>"; };
 		87020DD71D060F9200B3471C /* GroceryUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87020DDA1D060F9200B3471C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87020DDC1D060F9200B3471C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		87020DDF1D060F9200B3471C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87020DE11D060F9300B3471C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87020DE41D060F9300B3471C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87020DE61D060F9300B3471C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9623300EA33B193EFEEC1815 /* Pods-GroceryUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +29,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BDC3FA3EBCF190B18B3926 /* Pods_GroceryUber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		334260D298E2A35C251E4E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1AC44D592BB25181D3BA14 /* Pods_GroceryUber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87020DCE1D060F9200B3471C = {
 			isa = PBXGroup;
 			children = (
 				87020DD91D060F9200B3471C /* GroceryUber */,
 				87020DD81D060F9200B3471C /* Products */,
+				B7B9F7AC0A5E53799156A8CF /* Pods */,
+				334260D298E2A35C251E4E50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,45 @@
 		87020DD91D060F9200B3471C /* GroceryUber */ = {
 			isa = PBXGroup;
 			children = (
+				87020DEE1D06108800B3471C /* Constants */,
+				87020DED1D06107C00B3471C /* Models */,
+				87020DEC1D06107400B3471C /* ViewControllers */,
 				87020DDA1D060F9200B3471C /* AppDelegate.swift */,
-				87020DDC1D060F9200B3471C /* ViewController.swift */,
-				87020DDE1D060F9200B3471C /* Main.storyboard */,
 				87020DE11D060F9300B3471C /* Assets.xcassets */,
 				87020DE31D060F9300B3471C /* LaunchScreen.storyboard */,
 				87020DE61D060F9300B3471C /* Info.plist */,
 			);
 			path = GroceryUber;
+			sourceTree = "<group>";
+		};
+		87020DEC1D06107400B3471C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		87020DED1D06107C00B3471C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		87020DEE1D06108800B3471C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		B7B9F7AC0A5E53799156A8CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9623300EA33B193EFEEC1815 /* Pods-GroceryUber.debug.xcconfig */,
+				4AEF68676FC67BADC9F35788 /* Pods-GroceryUber.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87020DE91D060F9300B3471C /* Build configuration list for PBXNativeTarget "GroceryUber" */;
 			buildPhases = (
+				95D462E6B0E5D8AFB9D30609 /* 📦 Check Pods Manifest.lock */,
 				87020DD31D060F9200B3471C /* Sources */,
 				87020DD41D060F9200B3471C /* Frameworks */,
 				87020DD51D060F9200B3471C /* Resources */,
+				58056145A2615A3D82228A07 /* 📦 Embed Pods Frameworks */,
+				D0BFAE5F1F2C6E53C7EE6253 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +170,64 @@
 			files = (
 				87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */,
 				87020DE21D060F9300B3471C /* Assets.xcassets in Resources */,
-				87020DE01D060F9200B3471C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58056145A2615A3D82228A07 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D462E6B0E5D8AFB9D30609 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BFAE5F1F2C6E53C7EE6253 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87020DD31D060F9200B3471C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87020DDD1D060F9200B3471C /* ViewController.swift in Sources */,
 				87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		87020DDE1D060F9200B3471C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87020DDF1D060F9200B3471C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		87020DE31D060F9300B3471C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -250,6 +333,7 @@
 		};
 		87020DEA1D060F9300B3471C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9623300EA33B193EFEEC1815 /* Pods-GroceryUber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GroceryUber/Info.plist;
@@ -261,6 +345,7 @@
 		};
 		87020DEB1D060F9300B3471C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEF68676FC67BADC9F35788 /* Pods-GroceryUber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GroceryUber/Info.plist;
@@ -289,6 +374,7 @@
 				87020DEB1D060F9300B3471C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
