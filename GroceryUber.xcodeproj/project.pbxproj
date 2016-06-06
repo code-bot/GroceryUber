@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87020DDA1D060F9200B3471C /* AppDelegate.swift */; };
+		87020DDD1D060F9200B3471C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87020DDC1D060F9200B3471C /* ViewController.swift */; };
+		87020DE01D060F9200B3471C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87020DDE1D060F9200B3471C /* Main.storyboard */; };
+		87020DE21D060F9300B3471C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE11D060F9300B3471C /* Assets.xcassets */; };
+		87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE31D060F9300B3471C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87020DD71D060F9200B3471C /* GroceryUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87020DDA1D060F9200B3471C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87020DDC1D060F9200B3471C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87020DDF1D060F9200B3471C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87020DE11D060F9300B3471C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87020DE41D060F9300B3471C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87020DE61D060F9300B3471C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87020DD41D060F9200B3471C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87020DCE1D060F9200B3471C = {
+			isa = PBXGroup;
+			children = (
+				87020DD91D060F9200B3471C /* GroceryUber */,
+				87020DD81D060F9200B3471C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87020DD81D060F9200B3471C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87020DD71D060F9200B3471C /* GroceryUber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87020DD91D060F9200B3471C /* GroceryUber */ = {
+			isa = PBXGroup;
+			children = (
+				87020DDA1D060F9200B3471C /* AppDelegate.swift */,
+				87020DDC1D060F9200B3471C /* ViewController.swift */,
+				87020DDE1D060F9200B3471C /* Main.storyboard */,
+				87020DE11D060F9300B3471C /* Assets.xcassets */,
+				87020DE31D060F9300B3471C /* LaunchScreen.storyboard */,
+				87020DE61D060F9300B3471C /* Info.plist */,
+			);
+			path = GroceryUber;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87020DD61D060F9200B3471C /* GroceryUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87020DE91D060F9300B3471C /* Build configuration list for PBXNativeTarget "GroceryUber" */;
+			buildPhases = (
+				87020DD31D060F9200B3471C /* Sources */,
+				87020DD41D060F9200B3471C /* Frameworks */,
+				87020DD51D060F9200B3471C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryUber;
+			productName = GroceryUber;
+			productReference = 87020DD71D060F9200B3471C /* GroceryUber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87020DCF1D060F9200B3471C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sahaj Bhatt";
+				TargetAttributes = {
+					87020DD61D060F9200B3471C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9X42PLV7V;
+					};
+				};
+			};
+			buildConfigurationList = 87020DD21D060F9200B3471C /* Build configuration list for PBXProject "GroceryUber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87020DCE1D060F9200B3471C;
+			productRefGroup = 87020DD81D060F9200B3471C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87020DD61D060F9200B3471C /* GroceryUber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87020DD51D060F9200B3471C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */,
+				87020DE21D060F9300B3471C /* Assets.xcassets in Resources */,
+				87020DE01D060F9200B3471C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87020DD31D060F9200B3471C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87020DDD1D060F9200B3471C /* ViewController.swift in Sources */,
+				87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87020DDE1D060F9200B3471C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87020DDF1D060F9200B3471C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87020DE31D060F9300B3471C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87020DE41D060F9300B3471C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87020DE71D060F9300B3471C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87020DE81D060F9300B3471C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87020DEA1D060F9300B3471C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroceryUber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahajbhatt.GroceryUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87020DEB1D060F9300B3471C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroceryUber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahajbhatt.GroceryUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87020DD21D060F9200B3471C /* Build configuration list for PBXProject "GroceryUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87020DE71D060F9300B3471C /* Debug */,
+				87020DE81D060F9300B3471C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87020DE91D060F9300B3471C /* Build configuration list for PBXNativeTarget "GroceryUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87020DEA1D060F9300B3471C /* Debug */,
+				87020DEB1D060F9300B3471C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87020DCF1D060F9200B3471C /* Project object */;
+}
