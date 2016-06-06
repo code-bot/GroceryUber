@@ -10,6 +10,7 @@
 		87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87020DDA1D060F9200B3471C /* AppDelegate.swift */; };
 		87020DE21D060F9300B3471C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE11D060F9300B3471C /* Assets.xcassets */; };
 		87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE31D060F9300B3471C /* LaunchScreen.storyboard */; };
+		8799B5ED1D06134F00950EE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8799B5EC1D06134F00950EE1 /* GoogleService-Info.plist */; };
 		A1BDC3FA3EBCF190B18B3926 /* Pods_GroceryUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1AC44D592BB25181D3BA14 /* Pods_GroceryUber.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		87020DE11D060F9300B3471C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87020DE41D060F9300B3471C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87020DE61D060F9300B3471C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8799B5EC1D06134F00950EE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9623300EA33B193EFEEC1815 /* Pods-GroceryUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 				87020DDA1D060F9200B3471C /* AppDelegate.swift */,
 				87020DE11D060F9300B3471C /* Assets.xcassets */,
 				87020DE31D060F9300B3471C /* LaunchScreen.storyboard */,
+				8799B5EC1D06134F00950EE1 /* GoogleService-Info.plist */,
 				87020DE61D060F9300B3471C /* Info.plist */,
 			);
 			path = GroceryUber;
@@ -170,6 +173,7 @@
 			files = (
 				87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */,
 				87020DE21D060F9300B3471C /* Assets.xcassets in Resources */,
+				8799B5ED1D06134F00950EE1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
