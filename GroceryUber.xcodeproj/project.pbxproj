@@ -11,6 +11,11 @@
 		87020DE21D060F9300B3471C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE11D060F9300B3471C /* Assets.xcassets */; };
 		87020DE51D060F9300B3471C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87020DE31D060F9300B3471C /* LaunchScreen.storyboard */; };
 		8799B5ED1D06134F00950EE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8799B5EC1D06134F00950EE1 /* GoogleService-Info.plist */; };
+		8799B5EF1D0616FF00950EE1 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5EE1D0616FF00950EE1 /* UIColor+Extensions.swift */; };
+		8799B5F11D062A8B00950EE1 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F01D062A8B00950EE1 /* UIView+Extensions.swift */; };
+		8799B5F31D062AA200950EE1 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F21D062AA200950EE1 /* UILabel+Extensions.swift */; };
+		8799B5F51D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F41D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift */; };
+		8799B5F71D062B0A00950EE1 /* GUConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F61D062B0A00950EE1 /* GUConstants.swift */; };
 		A1BDC3FA3EBCF190B18B3926 /* Pods_GroceryUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1AC44D592BB25181D3BA14 /* Pods_GroceryUber.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,11 @@
 		87020DE41D060F9300B3471C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87020DE61D060F9300B3471C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8799B5EC1D06134F00950EE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8799B5EE1D0616FF00950EE1 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		8799B5F01D062A8B00950EE1 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8799B5F21D062AA200950EE1 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		8799B5F41D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		8799B5F61D062B0A00950EE1 /* GUConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUConstants.swift; sourceTree = "<group>"; };
 		9623300EA33B193EFEEC1815 /* Pods-GroceryUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +77,8 @@
 		87020DD91D060F9200B3471C /* GroceryUber */ = {
 			isa = PBXGroup;
 			children = (
-				87020DEE1D06108800B3471C /* Constants */,
+				87020DEE1D06108800B3471C /* Constants+Extensions */,
+				8799B5F81D062B6500950EE1 /* Interfaces */,
 				87020DED1D06107C00B3471C /* Models */,
 				87020DEC1D06107400B3471C /* ViewControllers */,
 				87020DDA1D060F9200B3471C /* AppDelegate.swift */,
@@ -93,11 +104,23 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		87020DEE1D06108800B3471C /* Constants */ = {
+		87020DEE1D06108800B3471C /* Constants+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8799B5EE1D0616FF00950EE1 /* UIColor+Extensions.swift */,
+				8799B5F21D062AA200950EE1 /* UILabel+Extensions.swift */,
+				8799B5F01D062A8B00950EE1 /* UIView+Extensions.swift */,
+				8799B5F41D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift */,
+				8799B5F61D062B0A00950EE1 /* GUConstants.swift */,
+			);
+			name = "Constants+Extensions";
+			sourceTree = "<group>";
+		};
+		8799B5F81D062B6500950EE1 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Constants;
+			name = Interfaces;
 			sourceTree = "<group>";
 		};
 		B7B9F7AC0A5E53799156A8CF /* Pods */ = {
@@ -232,7 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8799B5F31D062AA200950EE1 /* UILabel+Extensions.swift in Sources */,
+				8799B5F71D062B0A00950EE1 /* GUConstants.swift in Sources */,
+				8799B5F11D062A8B00950EE1 /* UIView+Extensions.swift in Sources */,
 				87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */,
+				8799B5F51D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift in Sources */,
+				8799B5EF1D0616FF00950EE1 /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
