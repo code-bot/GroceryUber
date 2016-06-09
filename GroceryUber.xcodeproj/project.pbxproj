@@ -16,6 +16,7 @@
 		8799B5F31D062AA200950EE1 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F21D062AA200950EE1 /* UILabel+Extensions.swift */; };
 		8799B5F51D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F41D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift */; };
 		8799B5F71D062B0A00950EE1 /* GUConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799B5F61D062B0A00950EE1 /* GUConstants.swift */; };
+		87ACECAA1D08ABE5001DAF8C /* GULoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACECA91D08ABE5001DAF8C /* GULoginController.swift */; };
 		A1BDC3FA3EBCF190B18B3926 /* Pods_GroceryUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1AC44D592BB25181D3BA14 /* Pods_GroceryUber.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		8799B5F21D062AA200950EE1 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		8799B5F41D062AF200950EE1 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
 		8799B5F61D062B0A00950EE1 /* GUConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUConstants.swift; sourceTree = "<group>"; };
+		87ACECA91D08ABE5001DAF8C /* GULoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GULoginController.swift; sourceTree = "<group>"; };
 		9623300EA33B193EFEEC1815 /* Pods-GroceryUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryUber/Pods-GroceryUber.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		87020DEC1D06107400B3471C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				87ACECA91D08ABE5001DAF8C /* GULoginController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8799B5F31D062AA200950EE1 /* UILabel+Extensions.swift in Sources */,
+				87ACECAA1D08ABE5001DAF8C /* GULoginController.swift in Sources */,
 				8799B5F71D062B0A00950EE1 /* GUConstants.swift in Sources */,
 				8799B5F11D062A8B00950EE1 /* UIView+Extensions.swift in Sources */,
 				87020DDB1D060F9200B3471C /* AppDelegate.swift in Sources */,

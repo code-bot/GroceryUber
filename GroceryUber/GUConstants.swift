@@ -1,8 +1,8 @@
 import UIKit
 
-struct CDUIConstants {
+struct GUConstants {
     static let screenWidth          = UIScreen.mainScreen().bounds.size.width
-    static let scrrenHeight         = UIScreen.mainScreen().bounds.size.height
+    static let screenHeight         = UIScreen.mainScreen().bounds.size.height
     static let animationDuration    = 0.25
     
     struct colors {
